@@ -66,7 +66,7 @@ public class ReadmeEditor : Editor {
 		var readme = (Readme)target;
 		Init();
 		
-		var iconWidth = Mathf.Min(EditorGUIUtility.currentViewWidth/3f - 20f, 128f);
+		var iconWidth = Mathf.Min(EditorGUIUtility.currentViewWidth/3f - 20f, readme.iconMaxWidth);
 		
 		GUILayout.BeginHorizontal("In BigTitle");
 		{

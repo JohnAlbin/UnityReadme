@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Name: Readme
   m_EditorClassIdentifier: 
   icon: {fileID: 2800000, guid: 407619c5c19a54982b3880b5a085c597, type: 3}
+  iconMaxWidth: 192
   title: Readme Tutorial
   sections:
   - heading: About this readme
