@@ -36,13 +36,18 @@ MonoBehaviour:
   - heading: Add another section
     text: "To add more sections to this Readme, change the \u201CSize\u201D field
       at the top of \u201CSections\u201D."
-    linkText: Open this link in your browser
-    url: https://example.com
+    linkText: 
+    url: 
   - heading: Change the Inspector icon
     text: |-
-      The current icon used in this inspector is found at “»Readme/Icons/Readme_Builder.png”. You can use any PNG file (and file name) for the inspector.
+      The current icon used in this inspector is found at:
+      »Readme / Icons / Readme_Builder.png
       
-      Just add the new icon to the project and, in the Unity inspector, change the icon’s “Texture Type” to “Editor GUI and Legacy GUI”. Then open the “debug” version of the Readme inspector and drag the new icon into the “Icon” field.
+      You can use any PNG file (and file name) for the icon.
+      
+      1. Add the new icon to the project.
+      2. In the Unity inspector, change the icon’s “Texture Type” to “Editor GUI and Legacy GUI”.
+      3. Then open the “debug” version of the Readme inspector and drag the new icon into the “Icon” field.
     linkText: 
     url: 
   - heading: Advanced editing
