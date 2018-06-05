@@ -19,7 +19,7 @@ MonoBehaviour:
     text: |-
       This “Readme” file will be shown every time this project is opened. To return to this screen later, select from Unity’s menus:
       
-      “Tutorial” → “Show Tutorial Instructions”.
+      “Help” → “Project Readme”.
     linkText: 
     url: 
   - heading: Edit this readme

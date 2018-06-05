@@ -42,7 +42,7 @@ public class ReadmeEditor : Editor {
 		method.Invoke(null, new object[]{Path.Combine(Application.dataPath, "»Readme/Layout.wlt"), false});
 	}
 	
-	[MenuItem("Tutorial/Show Tutorial Instructions")]
+	[MenuItem("Help/Project Readme")]
 	static Readme SelectReadme() 
 	{
 		var ids = AssetDatabase.FindAssets("Readme t:Readme");
