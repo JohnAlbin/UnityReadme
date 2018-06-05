@@ -10,4 +10,4 @@ Download the [package](build/Readme.unitypackage?raw=true).
 
 ## License
 
-Read the [license](LICENSE.txt).
+Read the [license](LICENSE.md).
