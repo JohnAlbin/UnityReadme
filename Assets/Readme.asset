@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcf7219bab7fe46a1ad266029b2fee19, type: 3}
+  m_Name: Readme
+  m_EditorClassIdentifier: 
+  icon: {fileID: 2800000, guid: 407619c5c19a54982b3880b5a085c597, type: 3}
+  title: Readme Tutorial
+  sections:
+  - heading: About this readme
+    text: |-
+      This “Readme” file will be shown every time this project is opened. To return to this screen later, select from Unity’s menus:
+      
+      “Tutorial” → “Show Tutorial Instructions”.
+    linkText: 
+    url: 
+  - heading: Edit this readme
+    text: "This \u201CReadme\u201D file can be edited by clicking on the drop-down
+      menu to the right of this \u201CInspector\u201D tab and picking the \u201CDebug\u201D
+      option."
+    linkText: 
+    url: 
+  - heading: Add a link to a section
+    text: "Each section can have an optional \u201CLink Text\u201D and \u201CUrl\u201D
+      field."
+    linkText: Open this link in your browser
+    url: https://example.com
+  - heading: Add another section
+    text: "To add more sections to this Readme, change the \u201CSize\u201D field
+      at the top of \u201CSections\u201D."
+    linkText: Open this link in your browser
+    url: https://example.com
+  - heading: Change the Inspector icon
+    text: |-
+      The current icon used in this inspector is found at “»Readme/Icons/Readme_Builder.png”. You can use any PNG file (and file name) for the inspector.
+      
+      Just add the new icon to the project and, in the Unity inspector, change the icon’s “Texture Type” to “Editor GUI and Legacy GUI”. Then open the “debug” version of the Readme inspector and drag the new icon into the “Icon” field.
+    linkText: 
+    url: 
+  - heading: Advanced editing
+    text: |-
+      Adding long text to the “text” field in Unity’s “debug” screen is cumbersome.
+      
+      The Readme file can also be edited by opening this project’s “Readme.asset” file in a text editor. The file is in Yaml syntax and can contain UTF-8 characters.
+      
+      For example, this section was written using a text editor and uses the Yaml “|-” (pipe and dash) characters to add multi-line text to a single yaml value.
+    linkText: Learn about Yaml syntax
+    url: http://docs.ansible.com/ansible/latest/reference_appendices/YAMLSyntax.html
+  loadedLayout: 1
