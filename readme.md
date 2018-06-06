@@ -2,7 +2,7 @@
 
 Add a Readme / Tutorial to the inspector tab of your Unity project.
 
-![Screenshot of Unity 2018 showing the inspector with Readme content.](readme-screenshot.png?raw=true)
+![Screenshot of Unity 2018 showing the inspector with Readme content.](readme-screenshot.png?raw=true | width=439)
 
 ## Download
 
