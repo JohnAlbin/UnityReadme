@@ -25,21 +25,7 @@ public class ReadmeEditor : Editor {
 		{
 			var readme = SelectReadme();
 			SessionState.SetBool(kShowedReadmeSessionStateName, true);
-			
-			if (readme && !readme.loadedLayout)
-			{
-				LoadLayout();
-				readme.loadedLayout = true;
-			}
 		} 
-	}
-	
-	static void LoadLayout()
-	{
-		var assembly = typeof(EditorApplication).Assembly; 
-		var windowLayoutType = assembly.GetType("UnityEditor.WindowLayout", true);
-		var method = windowLayoutType.GetMethod("LoadWindowLayout", BindingFlags.Public | BindingFlags.Static);
-		method.Invoke(null, new object[]{Path.Combine(Application.dataPath, "»Readme/Layout.wlt"), false});
 	}
 	
 	[MenuItem("Help/Project Readme")]

@@ -6,7 +6,6 @@ public class Readme : ScriptableObject {
 	public float iconMaxWidth = 128f;
 	public string title;
 	public Section[] sections;
-	public bool loadedLayout;
 	
 	[Serializable]
 	public class Section {
