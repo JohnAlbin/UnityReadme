@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio for Mac
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Readme", "Assembly-CSharp.csproj", "{745C9FFD-DF0C-0EC7-7363-4443346C1811}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{745C9FFD-DF0C-0EC7-7363-4443346C1811}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Readme", "Assembly-CSharp-Editor.csproj", "{F496DE02-2516-4574-1FAD-84B5F28AD426}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{F496DE02-2516-4574-1FAD-84B5F28AD426}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
